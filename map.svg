@@ -20,9 +20,9 @@
 
   <!-- Depth contour lines -->
   <g fill="none" stroke="#96c0d6" stroke-width="1.2" opacity="0.2">
-    <path d="M 520,10 C 540,80 560,180 610,290 C 650,380 680,400 680,420 C 650,450 580,500 480,560 C 380,620 330,700 310,800 C 300,900 310,1000 340,1100 Q 360,1200 380,1300"/>
-    <path d="M 580,5 C 600,70 630,170 670,280 C 700,360 720,395 718,420 C 700,450 640,500 560,560 C 470,620 410,700 390,800 C 375,910 385,1020 410,1120 Q 430,1210 450,1300"/>
-    <path d="M 750,5 C 755,80 760,180 770,290 C 780,370 790,400 800,430 C 820,470 850,520 860,580 C 870,640 860,720 840,800 C 810,890 790,980 780,1080 Q 770,1200 760,1300"/>
+    <path d="M 500,10 C 520,80 545,180 595,290 C 635,360 655,390 652,418 C 635,445 575,485 480,540 C 375,600 280,670 210,755 C 160,838 142,920 150,1005 C 165,1088 195,1160 238,1228 Q 260,1270 285,1300"/>
+    <path d="M 555,5 C 575,70 605,170 650,280 C 688,355 708,390 705,420 C 695,448 640,492 548,555 C 440,625 338,710 268,805 C 210,895 195,978 208,1065 C 225,1145 258,1215 302,1275 Q 318,1292 338,1300"/>
+    <path d="M 780,5 C 785,80 792,180 805,295 C 815,365 830,400 848,438 C 872,478 905,525 940,578 C 975,635 1002,700 1018,775 C 1028,848 1022,920 1000,995 C 972,1068 942,1132 925,1190 Q 935,1248 955,1300"/>
   </g>
 
   <!-- Faint grid lines -->
@@ -40,24 +40,23 @@
 
   <!-- Denmark / Zealand + Amager landmass -->
   <path d="
-    M 0,0 L 435,0
-    C 425,28 412,58 398,88
-    C 388,115 382,142 385,170
-    C 392,192 405,212 425,232
-    C 452,255 485,275 522,295
-    C 562,315 600,332 638,350
-    C 665,362 682,375 692,390
-    C 698,402 695,415 685,428
-    C 668,442 642,455 610,468
-    C 568,488 520,508 468,528
-    C 412,550 365,572 325,598
-    C 288,622 260,650 240,682
-    C 222,712 210,745 202,780
-    C 196,818 194,858 196,900
-    C 200,942 208,985 222,1025
-    C 238,1065 260,1100 288,1135
-    C 315,1168 342,1198 365,1228
-    C 382,1252 392,1275 398,1300
+    M 0,0 L 445,0
+    C 440,30 430,70 420,100
+    C 410,120 402,140 400,155
+    C 408,180 425,210 450,240
+    C 478,268 510,295 545,318
+    C 580,338 615,358 645,375
+    C 660,385 668,398 665,412
+    C 658,425 638,440 608,458
+    C 572,478 530,498 480,522
+    C 415,552 350,588 290,628
+    C 235,668 190,710 158,755
+    C 132,798 115,840 108,882
+    C 102,920 102,955 108,990
+    C 118,1025 138,1058 162,1090
+    C 190,1120 218,1150 245,1178
+    C 268,1202 285,1228 298,1255
+    C 306,1272 310,1288 312,1300
     L 0,1300 Z
   " fill="url(#landGrad)" stroke="#9a8b6e" stroke-width="1.8" filter="url(#landShadow)"/>
 
@@ -65,27 +64,27 @@
   <ellipse cx="180" cy="80" rx="120" ry="55" fill="#b8c99e" opacity="0.22"/>
   <ellipse cx="240" cy="210" rx="80" ry="50" fill="#b0c293" opacity="0.2"/>
   <ellipse cx="520" cy="340" rx="55" ry="30" fill="#afc190" opacity="0.2"/>
-  <ellipse cx="100" cy="760" rx="80" ry="60" fill="#b5c79a" opacity="0.16"/>
-  <ellipse cx="120" cy="1020" rx="90" ry="65" fill="#b0c293" opacity="0.18"/>
+  <ellipse cx="55" cy="760" rx="50" ry="55" fill="#b5c79a" opacity="0.16"/>
+  <ellipse cx="68" cy="1020" rx="60" ry="55" fill="#b0c293" opacity="0.18"/>
   <ellipse cx="160" cy="1220" rx="100" ry="60" fill="#b8c99e" opacity="0.2"/>
 
   <!-- Sweden / Skane landmass -->
   <path d="
-    M 1500,0 L 862,0
-    C 870,25 882,55 898,88
-    C 915,118 928,148 938,182
-    C 948,215 955,248 962,282
-    C 968,315 972,348 978,382
-    C 988,412 1002,440 1025,468
-    C 1055,498 1092,528 1132,558
-    C 1172,588 1205,618 1232,650
-    C 1252,678 1265,710 1272,745
-    C 1275,782 1272,820 1265,858
-    C 1255,898 1242,935 1228,972
-    C 1215,1008 1205,1042 1200,1078
-    C 1198,1112 1202,1142 1198,1175
-    C 1188,1208 1172,1238 1150,1265
-    C 1128,1288 1108,1298 1088,1300
+    M 1500,0 L 895,0
+    C 898,35 902,70 908,108
+    C 915,145 922,180 930,218
+    C 938,255 944,290 950,328
+    C 955,358 960,388 968,418
+    C 980,450 995,482 1015,515
+    C 1038,550 1058,585 1078,622
+    C 1095,658 1110,695 1125,735
+    C 1138,772 1148,810 1152,850
+    C 1150,888 1140,925 1122,962
+    C 1100,1000 1075,1035 1048,1068
+    C 1022,1100 1000,1128 985,1155
+    C 972,1178 965,1198 968,1220
+    C 978,1245 998,1268 1025,1285
+    C 1042,1295 1055,1300 1065,1300
     L 1500,1300 Z
   " fill="url(#landGrad)" stroke="#9a8b6e" stroke-width="1.8" filter="url(#landShadow)"/>
 
@@ -98,15 +97,15 @@
   <ellipse cx="1320" cy="1050" rx="100" ry="70" fill="#b0c293" opacity="0.18"/>
 
   <!-- Oresund Bridge (row 8, ~y=400-425, from Amager tip to Sweden) -->
-  <line x1="680" y1="408" x2="978" y2="418" stroke="#6a6a6a" stroke-width="2" stroke-dasharray="10,5" opacity="0.5"/>
+  <line x1="668" y1="410" x2="972" y2="418" stroke="#6a6a6a" stroke-width="2" stroke-dasharray="10,5" opacity="0.5"/>
 
   <!-- Bridge label -->
   <text x="830" y="440" font-family="Georgia, 'Times New Roman', serif" font-size="10" fill="#5a5a5a" text-anchor="middle" letter-spacing="2.5" opacity="0.55">&#xD6;RESUNDSBRON</text>
 
   <!-- City markers -->
   <!-- Landskrona -->
-  <circle cx="872" cy="22" r="3.5" fill="#c0392b" stroke="#fff" stroke-width="0.6"/>
-  <text x="892" y="28" font-family="Georgia, 'Times New Roman', serif" font-size="14" fill="#2c2c2c">Landskrona</text>
+  <circle cx="908" cy="22" r="3.5" fill="#c0392b" stroke="#fff" stroke-width="0.6"/>
+  <text x="928" y="28" font-family="Georgia, 'Times New Roman', serif" font-size="14" fill="#2c2c2c">Landskrona</text>
 
   <!-- Kobenhavn -->
   <circle cx="340" cy="215" r="6" fill="#c0392b" stroke="#fff" stroke-width="1"/>
@@ -116,8 +115,8 @@
   <text x="572" y="342" font-family="Georgia, 'Times New Roman', serif" font-size="14" fill="#666" font-style="italic">Amager</text>
 
   <!-- Dragor -->
-  <circle cx="668" cy="375" r="2.5" fill="#c0392b" stroke="#fff" stroke-width="0.5"/>
-  <text x="658" y="370" font-family="Georgia, 'Times New Roman', serif" font-size="11" fill="#444" text-anchor="end">Drag&#xF8;r</text>
+  <circle cx="648" cy="378" r="2.5" fill="#c0392b" stroke="#fff" stroke-width="0.5"/>
+  <text x="638" y="373" font-family="Georgia, 'Times New Roman', serif" font-size="11" fill="#444" text-anchor="end">Drag&#xF8;r</text>
 
   <!-- Malmo -->
   <circle cx="1015" cy="432" r="6" fill="#c0392b" stroke="#fff" stroke-width="1"/>
@@ -132,8 +131,8 @@
   <text x="1008" y="348" font-family="Georgia, 'Times New Roman', serif" font-size="11" fill="#444">Lomma</text>
 
   <!-- Koge -->
-  <circle cx="218" cy="1058" r="3.5" fill="#c0392b" stroke="#fff" stroke-width="0.6"/>
-  <text x="200" y="1055" font-family="Georgia, 'Times New Roman', serif" font-size="14" fill="#2c2c2c" text-anchor="end">K&#xF8;ge</text>
+  <circle cx="175" cy="1058" r="3.5" fill="#c0392b" stroke="#fff" stroke-width="0.6"/>
+  <text x="158" y="1055" font-family="Georgia, 'Times New Roman', serif" font-size="14" fill="#2c2c2c" text-anchor="end">K&#xF8;ge</text>
 
   <!-- Trelleborg -->
   <circle cx="1168" cy="1198" r="3.5" fill="#c0392b" stroke="#fff" stroke-width="0.6"/>
