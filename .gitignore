@@ -1,0 +1,7 @@
+# Temp tiles and screenshots
+tile_*.png
+europe-tile.png
+europe.png
+screenshot-*.png
+oresund-*.png
+.playwright-mcp/
